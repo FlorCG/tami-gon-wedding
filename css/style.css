@@ -1,15 +1,602 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script|Lato&display=swap');
 
-.mainheader {  text-align: center;
-   		}
+body{
+background-image: url("../assets/bg.jpg"); 
+background-size: cover;
 
-.mainheader  
+}
+
+.textparallax { margin-top: 10px; }
+
+.textparallax
  h3 {  
 		font-family: 'Lato', sans-serif;
 		text-transform: uppercase;
+		text-align: center;
+		color: white;
+		text-shadow: 2px 2px 2px #212121 ;
+		margin-bottom: -30px;
+		margin-top: 5px;
+   		
 	} 
 
-.mainheader h1 { 
+.textparallax h1 { 
 					font-family: 'Dancing Script', cursive; 
+					text-align: center;
+					color: white;
+					text-shadow: 2px 2px 2px #212121 ;
+   		
 } 
 
+.textparallax span.textito {
+	display: block;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+	text-shadow: 2px 2px 2px #212121;
+	text-transform: uppercase;
+	margin-top: 150px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .parallax  {
+        width: : 600px;
+    }
+}
+
+.parallax-container {
+	height: 650px;
+}
+
+
+
+.texto {
+	   font-family: 'Lato', sans-serif;
+		color: white;
+		text-transform: uppercase;
+		  font-size: 18px;
+}
+ .text {
+     width: 110px !important;
+     font-weight: bolder;
+     letter-spacing: 1px;
+ }
+
+ .contenedor {
+ 	margin-top: 50px;
+ 	width: 80%;
+ }
+
+.imgizq img{
+	width: 100%;
+	border: 5px solid #fff;
+	-webkit-box-shadow: 10px 10px 10px -1px rgba(168,168,168,1);
+-moz-box-shadow: 10px 10px 10px -1px rgba(168,168,168,1);
+box-shadow: 10px 10px 10px -1px rgba(168,168,168,1);
+opacity:0;  /* make things invisible upon start */
+    animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+
+    animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+
+    animation-duration:1s;
+    animation-delay: 1.5s
+}
+
+
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+
+@media only screen and (min-width: 993px)
+{
+.container .contenedor {
+     width: 0% !important;; 
+}
+}
+
+@media only screen and (min-width: 601px)
+{
+.container .contenedor {
+     width: 0% !important; 
+}
+}
+
+.titulo-seccion {
+	text-align: center;
+	
+	
+	display: block;
+	font-size: 4em !important;
+		font-family: 'Dancing Script', cursive !important; 
+}
+
+.seccion01 {
+	margin-top: 5%;
+	margin-bottom: 7%;
+	opacity:0;  /* make things invisible upon start */
+    animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+
+    animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+
+    animation-duration:1s;
+    animation-delay: 1.5s
+}
+
+.seccion00 {
+	margin-top: 0%;
+}
+
+@media screen and (max-width: 600px){
+.seccion00 {
+	margin-top: 5%;
+}
+
+}
+
+
+
+.seccion01 span, .seccion00 span {
+		display: block;
+		text-align: center;
+		  font-family: 'Lato', sans-serif;
+		   font-size: 1.20em;
+}
+
+.seccion01 p, .seccion00 p { 
+			display: block;
+			text-align: center;
+		  	font-family: 'Lato', sans-serif;
+		 	 font-size: 1.50em;
+		  	font-weight: bold;
+		  	margin-top: 2px;
+}
+
+
+.seccion02 {
+	margin-top: 50px;
+    background-color: rgba(20, 20, 20, 0.3);
+    padding: 30px;
+    width: 100% !important;
+    opacity:0;  /* make things invisible upon start */
+    animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+
+    animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+
+    animation-duration:1s;
+    animation-delay: 1.5s
+}
+
+.line {
+	    display: block;
+    text-align: center;
+}
+
+.line img {
+	width: 100px;
+}
+
+.seccion02 p { 
+			display: block;
+			text-align: center;
+		  	font-family: 'Lato', sans-serif;
+		 	 font-size: 28px;
+		  	font-weight: bold;
+		  	margin-top: 20px;
+}
+
+.imgregalo { width: 100% !important;
+margin-bottom: 20px; 
+opacity:0;  /* make things invisible upon start */
+    animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+
+    animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+
+    animation-duration:1s;
+    animation-delay: 1.5s}
+
+.seccion02 img {
+	width: 8%;
+	height: 8%;
+}
+
+.imgregalo, .textgift {
+	display: block;
+	text-align: center;
+}
+
+.textgift span {
+	font-size: 1.20em;
+	margin-top: 40px;
+	font-weight: 500;
+}
+
+span.direccion {
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+}
+
+.botonmapa {
+	display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  margin-top: 25px;
+}
+
+.botondatos{
+	display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  margin-top: 25px;
+  background-color: #DE486D;
+}
+
+.botonconfirmar {
+	display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  margin-top: 25px;
+  background-color: #DE486D;
+}
+
+.modal {
+	width: 30% !important;
+}
+
+.modal2 {
+	width:50% !important;
+}
+
+
+/* modal querys */
+
+@media only screen and (max-width: 1200px) {
+  .modal {
+    width: 80% !important;
+height: 80% !important;
+  }
+}
+
+#bottompar{
+	height: 500px !important;
+	margin-bottom: -500px !important; 
+}
+
+iframe {
+	width: 100%;
+}
+
+.botonconfirmar {
+	width: 25%;
+	display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+.botonconfirmar:hover {
+	background-color: #DE486D !important;
+}
+
+
+h3#tit{ margin-top: 10%; }
+span#conf {
+	display: block;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+margin-bottom: 50px;
+
+	margin-top: 100px;
+}
+
+#timer {
+  font-size: 3.2em;
+  font-weight: 100;
+  color: white;
+  	text-shadow: 2px 2px 2px #212121;
+  border: 1px solid #fff;
+  background-color: rgba(20, 20, 20, 0.3);
+    border-radius: 20px;
+    padding-left: -77px;
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 14px;
+
+
+}
+#timer div {
+  display: inline-block;
+  min-width: 90px;
+}
+#timer div span {
+  color: #fff;
+  display: block;
+  font-size: 0.35em;
+  font-weight: 400;
+}
+
+#myDIV {
+	  color: #fff;
+	  margin-top: 24% !important;
+	    display: block;
+  font-weight: 400;
+   text-align: center;
+   text-shadow: 2px 2px 2px #212121;
+   text-transform: uppercase;
+   font-size: 2.90em;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 800px){
+	#myDIV {
+		margin-top: 30% !important;
+	}
+	.botonconfirmar { width: 40% !important; }
+
+}
+
+@media screen and (max-width: 800px) and (min-width: 600px){
+	#timer {
+		width: 60% !important;
+	}
+	.botonconfirmar { width: 40% !important; }
+}
+
+@media screen and (max-width: 600px) and (min-width: 500px){
+	#timer {
+		width: 70% !important;
+	}
+	.imgregalo img {
+		width:100px;
+	}
+	.botonconfirmar { width: 40% !important; }
+
+}
+
+
+@media screen and (max-width: 1000px) and (min-width: 800px){
+	.parallax img {
+max-width: 100%;
+    top: 20px;
+    min-height: auto !important;
+    opacity: 1;
+    transform: translate3d(-50%, -36.944px, 0px) !important;
+}
+
+.contenedor {
+	    margin-top: 35px;
+}
+
+#timer {
+
+	width:50%;
+}
+
+.textparallax h3 {
+font-size: 35px;
+margin-top: 0;
+}
+
+.parallax-container .textparallax h2 {
+
+margin-top: 20% !important;
+}
+
+. h1 {
+font-size: 50px;
+
+}
+
+div.bottomparallax h3 {
+	font-size: 35px;
+	
+	font-family: 'Lato', sans-serif;
+		text-transform: uppercase;
+		text-align: center;
+		color: white !important;
+		text-shadow: 2px 2px 2px #212121 ;
+		margin-bottom: -30px;
+		margin-top: 25px !important;
+}
+
+
+.sectionmovil {
+	margin-top: 235px !important;
+}
+#myDIV {
+	font-size: 2.2em;
+	margin-top: 35%;
+}
+
+}
+}
+.sectionmovil {
+	margin-top: 250px !important;
+}
+
+@media screen and (max-width: 772px){
+	.botondatos {
+		width: 20%;
+	}
+}
+@media screen and (max-width: 450px) and (min-width: 300px){
+	.botondatos {
+		width: 40%;
+	}
+}
+
+@media screen and (max-width: 771px) and (min-width: 450px){
+	.botondatos {
+		width: 25%;
+	}
+}
+
+
+@media screen and (max-width: 799px) and (min-width: 700px){
+	.parallax img {
+max-width: 100%;
+    top: 20px;
+    min-height: auto !important;
+    opacity: 1;
+    transform: translate3d(-50%, -36.944px, 0px) !important;
+}
+#myDIV {
+	font-size: 2.2em;
+	margin-top: 200px;
+}
+#timer {
+	width:60%;
+}
+.parallax-container {
+	height: 535px;
+}
+}
+
+@media screen and (max-width: 700px) and (min-width: 600px){
+	#timer {
+	width:65%;
+}
+.contenedor{     margin-top: -80px; }
+.parallax img {
+max-width: 100%;
+    top: 20px;
+    min-height: auto !important;
+    opacity: 1;
+    transform: translate3d(-50%, -36.944px, 0px) !important;
+}
+
+#myDIV{
+	font-size: 2.2em;
+	margin-top: 20%;
+}
+}
+
+@media screen and (max-width: 550px) and (min-width: 500px){
+	#timer {
+	width:65%;
+}
+.botonconfirmar { width: 40% !important; }
+.contenedor{     margin-top: 0px; }
+.parallax img {
+max-width: 100%;
+    top: 20px;
+    min-height: auto !important;
+    opacity: 1;
+    transform: translate3d(-50%, -36.944px, 0px) !important;
+}
+
+#myDIV{
+	font-size: 2.2em;
+	margin-top: 55% !important;
+}
+}
+
+@media screen and (max-width: 600px) and (min-width: 550px){
+	
+.botonconfirmar { width: 60% !important; }
+	#timer {
+	width:65% !important;
+}
+.parallax img {
+max-width: 100%;
+    top: 20px;
+    min-height: auto !important;
+    opacity: 1;
+    transform: translate3d(-50%, -36.944px, 0px) !important;
+}
+.contenedor {
+	    margin-top: -195px;
+}
+#myDIV{
+	font-size: 2.2em;
+	margin-top: 16% !important;
+}
+}
+
+
+@media screen and (max-width: 335px) and (min-width: 300px){
+	.parallax img {
+max-width: 100%;
+    top: 20px;
+    min-height: auto !important;
+    opacity: 1;
+    transform: translate3d(-50%, -36.944px, 0px) !important;
+}
+.botonconfirmar { width: 40% !important; }
+
+.textparallax h3 {
+font-size: 25px;
+margin-top: 0;
+}
+
+.textparallax h1 {
+font-size: 40px;
+margin-top: 40%;
+}
+
+#myDIV {
+	font-size: 2.2em;
+	margin-top: 20% !important;
+}
+#timer {
+	width:95% !important;
+}
+.contenedor {
+    margin-top: -70px !important;
+    }
+}
+
+
+
+@media screen and (max-width: 500px) and (min-width: 335px){
+	.botondatos { width:60% !important; }
+
+span#conf {
+	margin-top: 35px !important;
+	margin-bottom: 10px !important;
+}
+
+	.parallax img {
+max-width: 100%;
+    top: 20px;
+    min-height: auto !important;
+    opacity: 1;
+    transform: translate3d(-50%, -36.944px, 0px) !important;
+}
+.botonconfirmar { width: 70% !important; 
+margin-top: 15px !important;}
+#myDIV {
+	font-size: 2.2em;
+	margin-top: 60% !important;
+}
+#timer {
+	width:95% !important;
+}
+
+  }
+.textparallax h3 {
+font-size: 35px;
+margin-top: 0;
+}
+
+.textparallax h1 {
+font-size: 50px;
+}
+
+#myDIV {
+	font-size: 3.0em;
+	margin-top: 10%;
+}
+#timer {
+	width:40%;
+	
+
+}

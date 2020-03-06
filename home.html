@@ -5,19 +5,127 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
      <link type="text/css" rel="stylesheet" href="css/style.css"  />
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
-<div class="container">
-<div class="mainheader">
+
+  <div class="parallax-container">
+    <div class="parallax"><img src="./assets/paralax.jpeg"></div>
+    <div class="textparallax">
+    <h3 data-aos="zoom-out">¡Nos casamos!</h3>
+   <h1 data-aos="zoom-in">Tamara y Gonzalo</h1>
+  <!-- <span class="textito">Sabado 9 de Mayo del 2020</span> -->
+  <div class="sectionmovil" >
+   <div id="myDIV" data-aos="zoom-in"></div>
+<div id="timer" data-aos="flip-up" ></div>
+</div>
+ </div>
+
+  </div>
+
+
+<div class="container contenedor">
+
+
+
+   <div class="row">
+      <div class="col s12 l6 m12 imgizq " data-aos="fade-left">
+ 	<img src="./assets/church.jpg">
+      </div>
+     <div class="col s12 l6 m12 seccion01" data-aos="fade-left">
+        <span class="titulo-seccion">Ceremonia</span>
+        <span>Las mejores cosas de la vida merecen ser compartidas.</span>
+        <span>Los invitamos a las 20:00 hs a nuestra ceremonia en</span>
+        <p>Sagrado Corazon de Jesus</p>
+        <span class="direccion">Delfor Diaz 1640, Hurlingham, Buenos Aires.</span>
+        <a class="botonmapa btn pink lighten-3" href="https://www.google.com.ar/maps/dir//Dr.+Delfor+D%C3%ADaz+1640,+Hurlingham,+Buenos+Aires/@-34.5848402,-58.6379357,16.75z/data=!4m8!4m7!1m0!1m5!1m1!1s0x95bcb94f4f5b0de5:0xc47a4c8398c8e9e5!2m2!1d-58.6354182!2d-34.584867">COMO LLEGAR</a>
+
+
+
+      </div>
+    </div>
+
+
+     <div class="row">
+     	  <div class="col s12 l6 m12 imgizq hide-on-large-only show-on-medium-and-down" data-aos="fade-right">
+ 	<img src="./assets/lugar.jpg">
+      </div>
+     <div class="col s12 l6 m12 seccion00" data-aos="fade-right">
+        <span class="titulo-seccion">Fiesta</span>
+        <span>Después de la ceremonia los esperamos para festejar a partir de las 21:30 hs en</span>
+        <p>Vergel del Bosque</p>
+        <span class="direccion">Av. Bernabé Márquez 6001 (Esquina Av. Triunvirato), Loma Hermosa, Buenos Aires.</span>
+        <a class="botonmapa btn pink lighten-3" href="https://www.google.com.ar/maps/dir//Av.+Bernab%C3%A9+M%C3%A1rquez+6001,+Loma+Hermosa,+Buenos+Aires/@-34.5658458,-58.591957,17z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x95bcb985697de26b:0x80616687b8dccece!2m2!1d-58.5897683!2d-34.5658458">COMO LLEGAR</a>
+      </div>
+        <div class="col s12 l6 m12 imgizq hide-on-med-and-down" data-aos="fade-right">
+ 	<img src="./assets/lugar.jpg">
+      </div>
+    </div>
+
+ </div>
+
+
+     <div class="col s12 l12 m12 seccion02">
+     	 <div class="col s1 l6 m6 imgregalo">
+ 			<img src="./assets/regalo.svg" />
+      </div>
+       <div class="textgift">
+        <span>Como ya tenemos más electrodomesticos que Frávega, <br>si quieren colaborar con la Luna de Miel, pueden hacerlo por este medio:</span>
+       </div>
+        <a class="botondatos btn modal-trigger"  href="#demo-modal">VER DATOS</a>
+ 
+  <!-- Modal -->
+ 
+  <div id="demo-modal" class="modal">
+ 
+    <div class="modal-content">
+ 
+      <p>Banco Galicia</p>
+       <p>CBU: 0070096230004041980131</p>
+       <p>ALIAS: gonchovaCAgal</p>
+ 
+    </div>
+ 
+    <div class="modal-footer">
+ 
+      <a href="#!" class="modal-action modal-close waves-effect waves-red btn red lighten-1">CERRAR</a>
+ 
+    </div>
+ 
+  </div>
+
+        <p>¡Muchas Gracias!</p>
+      </div>
+    </div>
+
+</div>
+
+   <div class="parallax-container" id="bottom-par">
+    <div class="parallax"><img src="./assets/parallax.jpeg"></div>
+    <div class="textparallax">
+    <h3 id="tit" data-aos="zoom-out">¡Los esperamos!</h3>
+  <span id="conf">Por favor confirmar asistencia por este medio</span>
+      <a class="botonconfirmar btn pink lighten-3 btn-large modal-trigger" href="#demo-modal2">CONFIRMAR ASISTENCIA</a>
+
+
+      <div id="demo-modal2" class="modal modal2">
+ 
+    <div class="modal-content">
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfwAyfGunRdgxkM8x0c7MhY4BaSedyVgFZaNC5NVhwm25hydA/viewform?embedded=true" width="600" height="600" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+ 
+    </div>
+ 
+  </div>
 	
-   <h3>¡Nos casamos!</h3>
-   <h1>Tamara y Gonzalo</h1>
+   </div>
+ 
 
-</div>
-
-</div>
-<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script type="text/javascript" src="./js/materialize.min.js"></script>
+<script type="text/javascript" src="./js/functions.js"></script>
 </body>
 </html>
