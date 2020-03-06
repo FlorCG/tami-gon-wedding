@@ -560,7 +560,7 @@ max-width: 100%;
 }
 
 
-@media screen and (max-width: 335px) and (min-width: 200px){
+@media screen and (max-width: 335px) and (min-width: 200px)and (orientation : portrait){
 	.parallax img {
 max-width: 100%;
     top: 20px;
@@ -571,7 +571,7 @@ max-width: 100%;
 .botonconfirmar { width: 40% !important; }
 
 .textparallax h3 {
-font-size: 18px !important;
+font-size: 10px !important;
 margin-top: 0;
 }
 
@@ -632,7 +632,7 @@ margin-top: 15px !important;}
 	width:95% !important;
 }
 .textparallax h3 {
-font-size: 2em !important;
+font-size: 10px !important;
 }
 .contenedor { margin-top: 0 !important; }
 
@@ -642,7 +642,7 @@ margin-top: 45% !important;
 }
   }
 .textparallax h3 {
-font-size: 4em;
+font-size: 3em;
 margin-top: 0;
 }
 
