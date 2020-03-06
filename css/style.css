@@ -952,11 +952,6 @@ font-size: 50px;
 .parallax-container { height: 548px !important;
  }
 
-#bottom-par { height: 548px !important;
-background-color: rgba(0, 0, 0, 0.6); }
 
 
 
-.bottom-par2 {
-	background-color: red;
-}
