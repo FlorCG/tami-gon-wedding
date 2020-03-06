@@ -274,7 +274,16 @@ h2#love {
 	width:50% !important;
 }
 
+.modal-content p {
+	font-size: 15px;
+}
 
+.modal-close {
+	display: block;
+    width: 20%;
+    /* text-align: center; */
+    margin: auto !important;
+}
 /* modal querys */
 
 @media only screen and (max-width: 1200px) {
