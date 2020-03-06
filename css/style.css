@@ -235,7 +235,7 @@ span.direccion {
 	display:block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 50%;
   margin-top: 25px;
 }
 
@@ -560,7 +560,7 @@ max-width: 100%;
 }
 
 
-@media screen and (max-width: 335px) and (min-width: 300px){
+@media screen and (max-width: 335px) and (min-width: 200px){
 	.parallax img {
 max-width: 100%;
     top: 20px;
@@ -571,7 +571,7 @@ max-width: 100%;
 .botonconfirmar { width: 40% !important; }
 
 .textparallax h3 {
-font-size: 25px !important;
+font-size: 18px !important;
 margin-top: 0;
 }
 
