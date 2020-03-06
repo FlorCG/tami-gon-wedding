@@ -326,7 +326,7 @@ margin-bottom: 50px;
 
 #myDIV {
 	  color: #fff;
-	  margin-top: 24% !important;
+	  margin-top: 17% !important;
 	    display: block;
   font-weight: 400;
    text-align: center;
@@ -480,6 +480,10 @@ max-width: 100%;
 }
 
 @media screen and (max-width: 550px) and (min-width: 500px){
+	.textparallax h3 {
+font-size: 25px !important;
+margin-top: 0;
+}
 	#timer {
 	width:65%;
 }
@@ -500,6 +504,10 @@ max-width: 100%;
 }
 
 @media screen and (max-width: 600px) and (min-width: 550px){
+	.textparallax h3 {
+font-size: 25px !important;
+margin-top: 0;
+}
 	
 .botonconfirmar { width: 60% !important; }
 	#timer {
@@ -533,12 +541,12 @@ max-width: 100%;
 .botonconfirmar { width: 40% !important; }
 
 .textparallax h3 {
-font-size: 25px;
+font-size: 25px !important;
 margin-top: 0;
 }
 
 .textparallax h1 {
-font-size: 40px;
+font-size: 40px !important;
 margin-top: 40%;
 }
 
@@ -547,14 +555,23 @@ margin-top: 40%;
 	margin-top: 20% !important;
 }
 #timer {
-	width:95% !important;
+	width:99% !important;
 }
 .contenedor {
     margin-top: -70px !important;
     }
 }
 
+.botonmapa:hover { background-color: #DE486D !important; }
 
+.modal { top: 25% !important; }
+#demo-modal0 {
+	width: 60% !important;
+	top:10% !important;
+	height: 100% !important;
+}
+
+.botondatos:hover { background-color: #f48fb1 !important; }
 
 @media screen and (max-width: 500px) and (min-width: 335px){
 	.botondatos { width:60% !important; }
@@ -583,7 +600,7 @@ margin-top: 15px !important;}
 
   }
 .textparallax h3 {
-font-size: 35px;
+font-size: 4em;
 margin-top: 0;
 }
 
