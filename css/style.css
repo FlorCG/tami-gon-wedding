@@ -597,9 +597,9 @@ margin-top: 40%;
 
 .modal { top: 25% !important; }
 #demo-modal0 {
-	width: 60% !important;
+	width: 98% !important;
 	top:10% !important;
-	height: 100% !important;
+	height: 50% !important;
 }
 
 .botondatos:hover { background-color: #f48fb1 !important; }
