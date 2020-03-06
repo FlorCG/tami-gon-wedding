@@ -329,6 +329,7 @@ margin-bottom: 50px;
   font-size: 3.2em;
   font-weight: 100;
   color: white;
+  margin-top: 8px;
   	text-shadow: 2px 2px 2px #212121;
   border: 1px solid #fff;
   background-color: rgba(20, 20, 20, 0.3);
@@ -571,7 +572,7 @@ max-width: 100%;
 .botonconfirmar { width: 40% !important; }
 
 .textparallax h3 {
-font-size: 20px !important;
+font-size: 22px !important;
 margin-top: 0;
 }
 
