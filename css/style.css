@@ -6,7 +6,14 @@ background-size: cover;
 
 }
 
-.textparallax { margin-top: 10px; }
+.textparallax { margin-top: 10px; 
+opacity:0;  /* make things invisible upon start */
+    animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+
+    animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+
+    animation-duration:1s;
+    animation-delay: 1.5s}
 
 .textparallax
  h3 {  
@@ -126,6 +133,13 @@ opacity:0;  /* make things invisible upon start */
 
 .seccion00 {
 	margin-top: 0%;
+	opacity:0;  /* make things invisible upon start */
+    animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+
+    animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+
+    animation-duration:1s;
+    animation-delay: 1.5s
 }
 
 @media screen and (max-width: 600px){
@@ -221,9 +235,18 @@ span.direccion {
 	display:block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 40%;
   margin-top: 25px;
 }
+
+h2#love { 
+	color: white;
+    display: block;
+    text-align: center;
+    margin-top: 84%;
+   font-size: 15px;
+    background-color: #DE486D;
+    padding: 14px; }
 
 .botondatos{
 	display:block;
@@ -283,7 +306,14 @@ iframe {
 }
 
 
-h3#tit{ margin-top: 10%; }
+h3#tit{ margin-top: 10%; 
+opacity:0;  /* make things invisible upon start */
+    animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+
+    animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+
+    animation-duration:1s;
+    animation-delay: 1.5s}
 span#conf {
 	display: block;
     text-align: center;
@@ -575,7 +605,10 @@ margin-top: 40%;
 
 @media screen and (max-width: 500px) and (min-width: 335px){
 	.botondatos { width:60% !important; }
-
+.seccion02 img {
+	width: 12%;
+	height: 12%;
+}
 span#conf {
 	margin-top: 35px !important;
 	margin-bottom: 10px !important;
@@ -590,14 +623,23 @@ max-width: 100%;
 }
 .botonconfirmar { width: 70% !important; 
 margin-top: 15px !important;}
+
 #myDIV {
 	font-size: 2.2em;
-	margin-top: 60% !important;
+	margin-top: 25% !important;
 }
 #timer {
 	width:95% !important;
 }
+.textparallax h3 {
+font-size: 2em !important;
+}
+.contenedor { margin-top: 0 !important; }
 
+.textparallax h1 {
+margin-top: 45% !important;
+
+}
   }
 .textparallax h3 {
 font-size: 4em;
